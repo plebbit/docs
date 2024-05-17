@@ -31,6 +31,17 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      "@grnet/docusaurus-terminology",
+      {
+        termsDir: "./docs/terms",
+        docsDir: "./docs/",
+        glossaryFilepath: "./docs/glossary.md",
+      },
+    ],
+  ],
+
   presets: [
     [
       "classic",
