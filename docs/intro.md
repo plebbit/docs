@@ -1,1 +1,5 @@
+---
+slug: /
+---
+
 Test intro

@@ -37,6 +37,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/", // Serve the docs at the site's root
           editUrl: (arg) => {
             return `https://github.com/plebbit/docs/blob/master/docs/${arg.docPath}`;
           },
@@ -76,15 +77,6 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
@@ -102,15 +94,6 @@ const config: Config = {
             {
               label: "Telegram",
               href: "https://t.me/plebbit",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/plebbit",
             },
           ],
         },
