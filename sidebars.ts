@@ -14,7 +14,7 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'overview',
+      id: 'intro',
       label: 'Welcome to Plebbit'
     },
     {
@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
         title: 'Local Node'
       },
       items: [
+        'local-node/how-to-run-a-node',
         'local-node/challenges',
         'local-node/monetizing-your-sub'
       ]

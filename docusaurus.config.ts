@@ -3,10 +3,9 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Plebbit docs",
+  title: "Plebbit Docs",
   tagline: "A decentralized P2P social media protocol",
-  favicon:
-    "https://raw.githubusercontent.com/plebbit/assets/master/logo-square.svg",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
   url: "https://plebbit.github.io",
@@ -54,17 +53,23 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Plebbit",
+      title: "Plebbit Docs",
       logo: {
         alt: "Plebbit Logo",
-        src: "https://raw.githubusercontent.com/plebbit/assets/master/logo-square.svg",
+        src: "img/logo-light.png",
+        srcDark: "img/logo-dark.png",
       },
       items: [
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Docs",
+          label: "Learn",
+        },
+        {
+          href: "https://plebbit.com",
+          label: "Plebbit Website",
+          position: "right",
         },
         {
           href: "https://github.com/plebbit",
