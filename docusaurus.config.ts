@@ -124,9 +124,26 @@ const config: Config = {
           title: "Developers",
           items: [
             {
-              label: "Plebbit Status",
+              label: "Plebbit API",
+              href: "https://github.com/plebbit/plebbit-js",
+            },
+            {
+              label: "Plebbit CLI",
+              href: "https://github.com/plebbit/plebbit-cli",
+            },
+            {
+              label: "Plebbit Status and Analytics",
               href: "https://plebbit.online/",
             },
+            {
+              label: "Plebbit Improvement Proposals",
+              href: "https://github.com/plebbit/plips",
+            },
+          ],
+        },
+        {
+          title: "Telegram Dev Chats",
+          items: [
             {
               label: "Plebbit API Dev Chat",
               href: "https://t.me/plebbitjs",
@@ -138,27 +155,6 @@ const config: Config = {
             {
               label: "Plebchan Dev Chat",
               href: "https://t.me/plebchanreact",
-            },
-          ],
-        },
-        {
-          title: "GitHub",
-          items: [
-            {
-              label: "Plebbit API Source Code",
-              href: "https://github.com/plebbit/plebbit-js",
-            },
-            {
-              label: "Seedit Source Code",
-              href: "https://github.com/plebbit/seedit",
-            },
-            {
-              label: "Plebchan Source Code",
-              href: "https://github.com/plebbit/plebchan",
-            },
-            {
-              label: "Plebbit Improvement Proposals",
-              href: "https://github.com/plebbit/plips",
             },
           ],
         },
