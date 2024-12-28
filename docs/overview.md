@@ -31,9 +31,9 @@ Centralized social media platforms are a problem, because they are controlled by
 
 Plebbit is a revolutionary protocol, because we believe **it is currently the only working design in existence for truly decentralized social media that can scale to millions of users**.
 
-### Design
+### Truly decentralized communities
 
-Plebbit is based on communities, which can take the shape of a forum, a subreddit, a 4chan board, a facebook page, etc. Users connect peer to peer to one or more communities, from which they read or write content. **Plebbit can fully decentralize community-based social media of all kinds**, including reddit, 4chan, old-school forums, but also crowdfunding platforms, blogging platforms, facebook groups and pages, meetups, etc.
+Plebbit's design is based on communities, which can take the shape of a forum, a subreddit, a 4chan board, a facebook page, etc. Users connect peer to peer to one or more communities, from which they read or write content. **Plebbit can fully decentralize community-based social media of all kinds**, including reddit, 4chan, old-school forums, but also crowdfunding platforms, blogging platforms, facebook groups and pages, meetups, etc.
 
 **[You can read the whitepaper here](https://github.com/plebbit/whitepaper/discussions/2).**
 
