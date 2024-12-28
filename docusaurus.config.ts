@@ -11,7 +11,7 @@ const config: Config = {
   url: "https://plebbit.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,6 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: '/',
           editUrl: (arg) => {
             return `https://github.com/plebbit/docs/blob/master/docs/${arg.docPath}`;
           },
@@ -55,8 +56,8 @@ const config: Config = {
       title: "Plebbit Docs",
       logo: {
         alt: "Plebbit Logo",
-        src: "docs/img/logo-light.png",
-        srcDark: "docs/img/logo-dark.png",
+        src: "img/logo-light.png",
+        srcDark: "img/logo-dark.png",
       },
       items: [
         {
@@ -64,18 +65,21 @@ const config: Config = {
           sidebarId: "learnSidebar",
           position: "left",
           label: "Learn",
+          to: "/docs/learn/intro"
         },
         {
           type: "docSidebar",
           sidebarId: "buildSidebar",
           position: "left",
           label: "Build",
+          to: "/docs/build/getting-started"
         },
         {
           type: "docSidebar",
           sidebarId: "faqSidebar",
           position: "left",
           label: "FAQ",
+          to: "/docs/faq/general"
         },
         {
           href: "https://plebbit.com",
