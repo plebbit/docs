@@ -36,7 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: '/',
+          routeBasePath: "/",
           editUrl: (arg) => {
             return `https://github.com/plebbit/docs/blob/master/docs/${arg.docPath}`;
           },
@@ -190,6 +190,25 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: '/docs/img/logo-light.png',
+        as: 'image'
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: '/docs/img/logo-dark.png',
+        as: 'image'
+      },
+    },
+  ],
 };
 
 export default config;
