@@ -11,10 +11,10 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  tutorialSidebar: [
+  learnSidebar: [
     {
       type: 'doc',
-      id: 'intro',
+      id: 'learn/intro',
       label: 'Welcome to Plebbit'
     },
     {
@@ -25,9 +25,9 @@ const sidebars: SidebarsConfig = {
         title: 'Local Node'
       },
       items: [
-        'local-node/how-to-run-a-node',
-        'local-node/challenges',
-        'local-node/monetizing-your-sub'
+        'learn/local-node/how-to-run-a-node',
+        'learn/local-node/challenges',
+        'learn/local-node/monetizing-your-sub'
       ]
     },
     {
@@ -38,15 +38,29 @@ const sidebars: SidebarsConfig = {
         title: 'Frontends'
       },
       items: [
-        'Frontends/seedit',
-        'Frontends/plebones',
-        'Frontends/plebchan'
+        'learn/frontends/seedit',
+        'learn/frontends/plebones',
+        'learn/frontends/plebchan'
       ]
     },
     {
       type: 'doc',
-      id: 'roadmap',
+      id: 'learn/roadmap',
       label: 'Roadmap'
+    }
+  ],
+  buildSidebar: [
+    {
+      type: 'doc',
+      id: 'build/getting-started',
+      label: 'Getting Started'
+    }
+  ],
+  faqSidebar: [
+    {
+      type: 'doc',
+      id: 'faq/general',
+      label: 'General FAQ'
     }
   ]
 };

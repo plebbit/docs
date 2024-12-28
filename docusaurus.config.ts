@@ -62,9 +62,21 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "learnSidebar",
           position: "left",
           label: "Learn",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "buildSidebar",
+          position: "left",
+          label: "Build",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "faqSidebar",
+          position: "left",
+          label: "FAQ",
         },
         {
           href: "https://plebbit.com",
