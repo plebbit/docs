@@ -1,5 +1,5 @@
 ---
-slug: /
+slug: /learn/intro
 ---
 
 # Welcome to Plebbit

@@ -4,14 +4,14 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Plebbit Docs",
-  tagline: "A decentralized P2P social media protocol",
+  tagline: "Learn how Plebbit decentralizes social media and discover how to build on it",
   favicon: "img/logo.png",
 
   // Set the production url of your site here
   url: "https://plebbit.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/docs/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,7 +36,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "/", // Serve the docs at the site's root
           editUrl: (arg) => {
             return `https://github.com/plebbit/docs/blob/master/docs/${arg.docPath}`;
           },
@@ -56,8 +55,8 @@ const config: Config = {
       title: "Plebbit Docs",
       logo: {
         alt: "Plebbit Logo",
-        src: "img/logo-light.png",
-        srcDark: "img/logo-dark.png",
+        src: "docs/img/logo-light.png",
+        srcDark: "docs/img/logo-dark.png",
       },
       items: [
         {
