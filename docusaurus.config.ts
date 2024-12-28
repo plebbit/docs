@@ -80,7 +80,17 @@ const config: Config = {
         },
         {
           href: "https://plebbit.com",
-          label: "Plebbit Website",
+          label: "Website",
+          position: "right",
+        },
+        {
+          href: "https://blog.plebbit.eth.limo/#/",
+          label: "Blog",
+          position: "right",
+        },
+        {
+          href: "https://github.com/plebbit/whitepaper/discussions/2",
+          label: "Whitepaper",
           position: "right",
         },
         {
@@ -94,10 +104,69 @@ const config: Config = {
       style: "dark",
       links: [
         {
+          title: "Docs",
+          items: [
+            {
+              label: "Learn",
+              href: "/",
+            },
+            {
+              label: "Build",
+              href: "/build/getting-started",
+            },
+            {
+              label: "FAQ",
+              href: "/faq/general",
+            },
+          ],
+        },
+        {
+          title: "Developers",
+          items: [
+            {
+              label: "Plebbit Status",
+              href: "https://plebbit.online/",
+            },
+            {
+              label: "Plebbit API Dev Chat",
+              href: "https://t.me/plebbitjs",
+            },
+            {
+              label: "Seedit Dev Chat",
+              href: "https://t.me/seeditreact",
+            },
+            {
+              label: "Plebchan Dev Chat",
+              href: "https://t.me/plebchanreact",
+            },
+          ],
+        },
+        {
+          title: "GitHub",
+          items: [
+            {
+              label: "Plebbit API Source Code",
+              href: "https://github.com/plebbit/plebbit-js",
+            },
+            {
+              label: "Seedit Source Code",
+              href: "https://github.com/plebbit/seedit",
+            },
+            {
+              label: "Plebchan Source Code",
+              href: "https://github.com/plebbit/plebchan",
+            },
+            {
+              label: "Plebbit Improvement Proposals",
+              href: "https://github.com/plebbit/plips",
+            },
+          ],
+        },
+        {
           title: "Community",
           items: [
             {
-              label: "Landing page",
+              label: "Website",
               href: "https://plebbit.com",
             },
             {
@@ -105,8 +174,8 @@ const config: Config = {
               href: "https://discord.gg/E7ejphwzGW",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/getplebbit",
+              label: "X/Twitter",
+              href: "https://x.com/getplebbit",
             },
             {
               label: "Telegram",
