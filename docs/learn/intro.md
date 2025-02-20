@@ -19,9 +19,10 @@ Similarly to how BitTorrent works, Plebbit nodes automatically seed content to o
 **Plebbit clients are different social media applications that use the same plebbit protocol data.** This means that you can use the same account on different user interfaces, and your posts, comments, likes, etc. will be the same.
 
 Existing Plebbit clients are:
-- **[Seedit](../learn/frontends/seedit)**, a decentralized reddit alternative
-- **[Plebchan](../learn/frontends/plebchan)**, a decentralized 4chan alternative
-- **[Plebones](../learn/frontends/plebones)**, a barebones interface, mainly for testing
+- **[Seedit](../learn/clients/seedit)**, a decentralized reddit alternative
+- **[Plebchan](../learn/clients/plebchan)**, a decentralized 4chan alternative
+- **[Plebones](../learn/clients/plebones)**, a barebones interface, mainly for testing
+- **[plebbit-cli](../learn/clients/plebbit-cli)**, a command line interface for Plebbit
 
 Plebbit is a permissionless protocol, so **anyone can create their own Plebbit client**, and we encourage you to do so. All code is open source, and you can find the code for the existing clients [on GitHub](https://github.com/plebbit/).
 

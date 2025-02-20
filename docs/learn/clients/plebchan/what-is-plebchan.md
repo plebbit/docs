@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-# Seedit
+# What is Plebchan?
 
-## Overview
-
-  TODO
+TODO

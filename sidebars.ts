@@ -32,15 +32,44 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Frontends',
+      label: 'Plebbit Clients',
       link: {
         type: 'generated-index',
-        title: 'Frontends'
+        title: 'Plebbit Clients'
       },
       items: [
-        'learn/frontends/seedit',
-        'learn/frontends/plebones',
-        'learn/frontends/plebchan'
+        {
+          type: 'category',
+          label: 'Plebbit-cli',
+          items: [
+            'learn/clients/plebbit-cli/what-is-plebbit-cli',
+            'learn/clients/plebbit-cli/create-a-subplebbit'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Seedit',
+          items: [
+            'learn/clients/seedit/what-is-seedit',
+            'learn/clients/seedit/create-a-community'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Plebchan',
+          items: [
+            'learn/clients/plebchan/what-is-plebchan',
+            'learn/clients/plebchan/create-a-board'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Plebones',
+          items: [
+            'learn/clients/plebones/what-is-plebones',
+            'learn/clients/plebones/create-a-subplebbit'
+          ]
+        }
       ]
     },
     {
