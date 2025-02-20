@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Plebbit Docs",
-  tagline: "Learn how Plebbit decentralizes social media and discover how to build on it",
+  tagline: "Learn how Plebbit decentralizes social media and how to build on it",
   favicon: "img/logo.png",
 
   // Set the production url of your site here

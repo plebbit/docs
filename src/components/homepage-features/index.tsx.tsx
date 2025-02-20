@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Serverless',
     description: (
       <>
-        Built completely with IPFS/IPNS/pubsub. No central server, database, HTTP endpoint or DNS - pure peer to peer.
+        Pure P2P. Built completely with IPFS/IPNS/pubsub - no central server, database, HTTP endpoint or DNS.
       </>
     ),
   },
@@ -20,15 +20,15 @@ const FeatureList: FeatureItem[] = [
     title: 'Adminless',
     description: (
       <>
-        No global admins. Users have full property rights over their own content, and they decide how to moderate it.
+        No global admins, moderators or rules. Your community is your cryptographic property.
       </>
     ),
   },
   {
-    title: 'Fully Decentralized',
+    title: 'Fully decentralized',
     description: (
       <>
-        Running a Plebbit full node is extremely easy - just open a desktop app and keep it running. No blockchain to sync.
+        The average user can run a Plebbit node by simply using a desktop app. Runs on 4GB of RAM.
       </>
     ),
   },
