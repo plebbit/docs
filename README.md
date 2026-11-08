@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Plebbit has rebranded to [Bitsocial](https://bitsocial.net).** This repository is archived and preserved for historical reference.
+>
+> Read the current [Bitsocial documentation](https://docs.bitsocial.net). Its source is maintained in [bitsocialnet/bitsocial-web](https://github.com/bitsocialnet/bitsocial-web/tree/master/docs).
+>
+> Find current projects at [@bitsocialnet](https://github.com/bitsocialnet).
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
